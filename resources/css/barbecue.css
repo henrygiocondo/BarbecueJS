@@ -1,0 +1,123 @@
+
+/*
+BBQ Window
+*/
+
+.bbq-window-resizable-helper {
+    border: 1px dotted #bbb;
+    z-index: 10000 !important;
+}
+
+.bbq-window .modal-header {
+	background-color: #428bca;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	color: #fff;
+}
+
+.bbq-window .modal-content {
+	-webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(0, 0, 0, 0.1);	
+}
+
+.bbq-window .modal-body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 20px;
+	overflow: auto; 
+}
+
+
+
+.bbq-window {
+	display: inline-block;
+	width: auto;
+	margin-left: 0;
+	margin-right: 0;
+	position: absolute !important;
+}
+
+.bbq-window .modal-header .close {
+	margin: 0px 0px 0px 3px;
+}
+
+.bbq-window .modal-header .maximize {
+	margin: 0px 3px 0px 3px;
+	font-weight: bold;
+}
+
+.bbq-window .modal-header .minimize {
+	margin: 4px 3px 0px 0px;
+}
+
+
+button.close, button.minimize, button.maximize {
+padding: 0;
+cursor: pointer;
+background: transparent;
+border: 0;
+-webkit-appearance: none;
+}
+
+.ui-resizable-handle{
+	z-index: 9991 !important;
+}
+
+.close, .minimize, .maximize {
+float: right;
+font-size: 21px;
+font-weight: bold;
+line-height: 1;
+color: #000000;
+text-shadow: 0 1px 0 #ffffff;
+opacity: 0.2;
+filter: alpha(opacity=20);
+}
+
+.close:hover, .close:focus, .minimize:hover, .minimize:focus, .maximize:hover, .maximize:focus {
+color: #000000;
+text-decoration: none;
+cursor: pointer;
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+
+.bbq-form .form-group{
+	padding: 0px 20px 10px 0px;
+}
+
+.bbq-form .form-group label{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+	font-weight: normal;
+	margin-bottom: 2px;	
+	white-space: nowrap;
+}
+
+.bbq-datatoolbar {
+	min-height: 0; 
+	width:100%; 
+	padding: 0px 10px; 	
+	overflow: hidden; 
+	height: 38px
+}
+
+.bbq-datatoolbar.top {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 0px;
+}
+
+.bbq-datatoolbar.bottom {
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 0px;
+}
+
+
+
